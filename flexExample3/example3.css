@@ -1,58 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
-
 body {
-  height: 100vh;
-  min-width: 100vw;
   margin: 0;
-  display: flex;
+  height: 100vh;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  display: flex;
+}
+
+h4 {
+  padding: 15px;
+  margin-top: 0;
+  font-weight: 900;
 }
 
 #container {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
 }
 
 nav {
-  height: 100%;
-  width: 20vw;
   background-color: purple;
-}
-
-h2 {
-  padding: 1rem;
+  height: 100vh;
+  width: 20vw;
 }
 
 header {
-  height: 20vh;
   background-color: black;
-  width: 100%;
-  display: flex;
+  height: 20%;
+  width: 80vw;
 }
 
-#middle {
-  height: 57.4vh;
-  background-color: wheat;
-  color: white;
+#main {
   display: flex;
+  justify-content: space-between;
+  height: 60%;
 }
 
 main {
-  width: 80%;
-  background-color: white;
-  margin: 0;
+  width: 60vw;
   color: black;
-  height: 60vh;
 }
 
-#aside {
-  width: 20%;
-  margin: 0;
+aside {
+  width: 20vw;
   background-color: blue;
   height: 80vh;
 }
 
 section {
-  height: 20vh;
   background-color: black;
+  height: 20%;
+  width: 60vw;
 }
