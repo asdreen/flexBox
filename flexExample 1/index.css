@@ -2,12 +2,18 @@
 
 body {
   margin: 0;
-  height: 100%;
-  background-color: antiquewhite;
+  height: 100vh;
   color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
 }
+
+h4 {
+  padding: 15px;
+  margin-top: 0;
+  font-weight: 900;
+}
+
 #container {
   display: flex;
   min-height: 100%;
@@ -17,31 +23,32 @@ body {
 header {
   background-color: black;
   height: 20vh;
-  padding: 20px;
-}
-#middle {
-  display: flex;
-  height: 60vh;
-}
-main {
-  background-color: white;
-  flex-grow: 1;
-  padding: 20px;
-  color: black;
-}
-#aside {
-  width: 20%;
-  background-color: blue;
-  padding: 20px;
-}
-#nav {
-  width: 20%;
-  background-color: purple;
-  padding: 20px;
 }
 
-section {
+#main {
+  display: flex;
+  background-color: white;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+article {
+  width: 60%;
+  background-color: white;
+  color: black;
+}
+
+aside {
+  width: 20%;
+  background-color: blue;
+}
+
+nav {
+  width: 20%;
+  background-color: purple;
+}
+
+footer {
   background-color: black;
   height: 20vh;
-  padding: 20px;
 }
